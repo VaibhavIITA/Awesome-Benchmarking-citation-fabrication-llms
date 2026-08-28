@@ -54,7 +54,7 @@ Datasets used across the reviewed literature to benchmark citation and hallucina
 
 Open-source tools for hallucination and citation-fabrication detection (SelfCheckGPT, FActScore, FacTool, RAGAs, CiteVerifier), plus authoritative bibliographic APIs (CrossRef, OpenAlex, Semantic Scholar, PubMed, Wayback Machine) and general RAG frameworks.
 
-📄 **Full list with descriptions and links:** [`tools/tools.md`](./tools/tools.md)
+📄 **Full list with descriptions and links:** [`tools/tools.md`](./tools/tool.md)
 
 ## GitHub Implementations
 
