@@ -1,6 +1,6 @@
 # Awesome Citation Fabrication Benchmarking
 
-> A curated, verified research collection on citation fabrication and hallucination benchmarking in large language models and agentic search tools.
+
 
 ## Short Description
 
