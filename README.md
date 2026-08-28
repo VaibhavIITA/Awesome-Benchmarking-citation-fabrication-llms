@@ -92,7 +92,7 @@ Authoritative resources for learning more about LLM hallucination and RAG evalua
 
 ## License
 
-This repository's original content (README, audit documentation, and the accompanying research paper) is released under the [MIT License](./LICENSE). Linked third-party datasets, tools, and papers remain under their own original licenses.
+This repository's original content (README, audit documentation, and the accompanying research paper) is released under the [MIT License](./license/license.md). Linked third-party datasets, tools, and papers remain under their own original licenses.
 
 ## Contributing
 
