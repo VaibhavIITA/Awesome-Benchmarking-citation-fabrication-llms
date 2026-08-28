@@ -42,7 +42,7 @@ All 21 curated research-paper references in this repository were independently c
 
 21 verified scholarly papers organized into 7 categories: Foundational Hallucination Research; Citation Fabrication Benchmarks (General-Purpose LLMs); Domain-Specific Studies (Medicine & Mental Health); Domain-Specific Studies (Law); Agentic Search & Deep Research Tools; Detection, Verification & Mitigation Methods; and Citation Bias & Trust Effects.
 
-📄 **Full list with DOIs / arXiv IDs / PMIDs:** [`references/references.md`](./references/references.md)
+📄 **Full list with DOIs / arXiv IDs / PMIDs:** [`references/references.md`](./refrences/refrences.md)
 
 ## Datasets
 
