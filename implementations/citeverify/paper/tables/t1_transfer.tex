@@ -1,0 +1,15 @@
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\caption{Transfer of the string-only detector B1 (AUC against B2 labels; 95\% topic bootstrap CI of the drop).}
+\label{tab:transfer}
+\begin{tabular}{llllllll}
+\toprule
+test\_model & train\_model & auc\_within & auc\_transfer & drop & ci\_lo & ci\_hi & n \\
+\midrule
+Qwen2.5-7B & Mistral-7B & 0.471 & 0.695 & -0.224 & -0.518 & -0.020 & 58 \\
+Mistral-7B & Qwen2.5-7B & 0.371 & 0.408 & -0.037 & -0.241 & 0.262 & 50 \\
+\bottomrule
+\end{tabular}
+\end{table*}

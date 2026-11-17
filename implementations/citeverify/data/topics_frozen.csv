@@ -1,0 +1,67 @@
+topic_id,topic,works_count,fetched_utc,band,is_pilot,is_robust
+T001,software testing,9688385,2026-11-17T08:47:36Z,high,False,False
+T002,recommender systems,7019192,2026-11-17T08:47:36Z,high,False,False
+T003,deep learning,5546002,2026-11-17T08:47:36Z,high,False,False
+T004,approximate computing,4916341,2026-11-17T08:47:36Z,high,False,False
+T005,natural language processing,3688353,2026-11-17T08:47:36Z,high,False,False
+T006,software defined networking,3538605,2026-11-17T08:47:36Z,high,False,True
+T007,mutation testing,2693775,2026-11-17T08:47:36Z,high,False,True
+T008,edge computing,2607522,2026-11-17T08:47:36Z,high,False,False
+T009,knowledge graphs,2296967,2026-11-17T08:47:36Z,high,False,False
+T010,object detection,2056419,2026-11-17T08:47:36Z,high,True,False
+T011,machine translation,1921169,2026-11-17T08:47:36Z,high,False,False
+T012,explainable artificial intelligence,1568898,2026-11-17T08:47:36Z,high,False,False
+T013,cloud computing,1543858,2026-11-17T08:47:36Z,high,False,True
+T014,image segmentation,1299107,2026-11-17T08:47:36Z,high,False,False
+T015,speech recognition,1215333,2026-11-17T08:47:36Z,high,False,False
+T016,graph neural networks,1086713,2026-11-17T08:47:36Z,high,False,False
+T017,sentiment analysis,1018043,2026-11-17T08:47:36Z,high,False,False
+T018,learned index structures,858559,2026-11-17T08:47:36Z,high,True,False
+T019,neural architecture search,766860,2026-11-17T08:47:36Z,high,False,False
+T020,continual learning,753655,2026-11-17T08:47:36Z,high,False,True
+T021,semantic web,707533,2026-11-17T08:47:36Z,high,False,False
+T022,compiler optimization,686180,2026-11-17T08:47:36Z,high,False,False
+T023,model stealing attacks,117880,2026-11-17T08:47:36Z,low,False,True
+T024,code comment inconsistency detection,111979,2026-11-17T08:47:36Z,low,False,False
+T025,test oracle generation,109824,2026-11-17T08:47:36Z,low,False,True
+T026,dark pattern detection in user interfaces,102333,2026-11-17T08:47:36Z,low,False,False
+T027,automated grading of programming assignments,80372,2026-11-17T08:47:36Z,low,False,False
+T028,technical debt in machine learning,72250,2026-11-17T08:47:36Z,low,False,False
+T029,cybersecurity intrusion detection,70898,2026-11-17T08:47:36Z,low,False,False
+T030,model compression and pruning,65143,2026-11-17T08:47:36Z,low,False,False
+T031,spreadsheet error detection,55222,2026-11-17T08:47:36Z,low,False,False
+T032,carbon footprint of machine learning training,53917,2026-11-17T08:47:36Z,low,False,False
+T033,cross-lingual code search,37968,2026-11-17T08:47:36Z,low,False,True
+T034,data poisoning in federated learning,17431,2026-11-17T08:47:36Z,low,False,False
+T035,quantum circuit compilation,15368,2026-11-17T08:47:36Z,low,False,False
+T036,fuzzing for vulnerability discovery,8370,2026-11-17T08:47:36Z,low,True,False
+T037,flaky test detection,7285,2026-11-17T08:47:36Z,low,False,False
+T038,side-channel attacks on deep learning accelerators,6940,2026-11-17T08:47:36Z,low,True,False
+T039,keystroke dynamics authentication,6170,2026-11-17T08:47:36Z,low,False,False
+T040,dependency vulnerability propagation in package ecosystems,5709,2026-11-17T08:47:36Z,low,False,False
+T041,microservice anomaly localization,4334,2026-11-17T08:47:36Z,low,False,False
+T042,hyperdimensional computing,3970,2026-11-17T08:47:36Z,low,False,True
+T043,bug report deduplication,2769,2026-11-17T08:47:36Z,low,False,False
+T044,WebAssembly security,2635,2026-11-17T08:47:36Z,low,False,False
+T045,programmable data plane verification,553840,2026-11-17T08:47:36Z,medium,False,False
+T046,code clone detection,550583,2026-11-17T08:47:36Z,medium,True,False
+T047,software energy consumption profiling,542632,2026-11-17T08:47:36Z,medium,False,False
+T048,few-shot learning,527079,2026-11-17T08:47:36Z,medium,False,True
+T049,code review automation,525785,2026-11-17T08:47:36Z,medium,False,False
+T050,transformer language models,516190,2026-11-17T08:47:36Z,medium,False,False
+T051,distributed consensus algorithms,415194,2026-11-17T08:47:36Z,medium,False,False
+T052,self-supervised learning for speech,361041,2026-11-17T08:47:36Z,medium,False,False
+T053,adversarial examples in deep learning,360879,2026-11-17T08:47:36Z,medium,True,False
+T054,generative adversarial networks,339754,2026-11-17T08:47:36Z,medium,False,False
+T055,quantum machine learning,301037,2026-11-17T08:47:36Z,medium,False,True
+T056,differential privacy,285307,2026-11-17T08:47:36Z,medium,False,False
+T057,spiking neural networks,268948,2026-11-17T08:47:36Z,medium,False,False
+T058,automated program repair,243038,2026-11-17T08:47:36Z,medium,False,False
+T059,configuration error diagnosis,242958,2026-11-17T08:47:36Z,medium,False,False
+T060,just-in-time defect prediction,240629,2026-11-17T08:47:36Z,medium,False,False
+T061,federated learning,232507,2026-11-17T08:47:36Z,medium,False,True
+T062,causal inference in recommender systems,197476,2026-11-17T08:47:36Z,medium,False,False
+T063,log parsing,196908,2026-11-17T08:47:36Z,medium,False,False
+T064,persistent memory file systems,192639,2026-11-17T08:47:36Z,medium,False,True
+T065,commit message generation,189745,2026-11-17T08:47:36Z,medium,False,False
+T066,retrieval augmented code generation,133244,2026-11-17T08:47:36Z,medium,False,False

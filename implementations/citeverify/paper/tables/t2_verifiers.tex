@@ -1,0 +1,18 @@
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\caption{Verifier comparison against the reference labels (class: fabricated; Wilson 95\% CIs).}
+\label{tab:verifiers}
+\begin{tabular}{llllllllll}
+\toprule
+verifier & precision & P 95\% CI & recall & R 95\% CI & f1 & specificity & tp & fp & fn \\
+\midrule
+B0 rules & 0.750 & 0.30 to 0.95 & 0.029 & 0.01 to 0.08 & 0.056 & 0.800 & 3 & 1 & 100 \\
+B1 string detector & 0.968 & 0.91 to 0.99 & 0.893 & 0.82 to 0.94 & 0.929 & 0.400 & 92 & 3 & 11 \\
+B2 database & 0.978 & 0.92 to 0.99 & 0.854 & 0.77 to 0.91 & 0.912 & 0.600 & 88 & 2 & 15 \\
+B1 without DOI features (ablation) & 0.969 & 0.91 to 0.99 & 0.913 & 0.84 to 0.95 & 0.940 & 0.400 & 94 & 3 & 9 \\
+Trivial: all fabricated & 0.954 & 0.90 to 0.98 & 1.000 & 0.96 to 1.00 & 0.976 & 0.000 & 103 & 5 & 0 \\
+\bottomrule
+\end{tabular}
+\end{table*}

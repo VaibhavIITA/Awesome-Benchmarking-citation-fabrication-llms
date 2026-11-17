@@ -1,0 +1,102 @@
+{
+  "time_utc": "2026-11-17T12:55:52Z",
+  "python": "3.13.18",
+  "platform": "Linux-6.18.44-fc-v553-x86_64-with-glibc2.39",
+  "packages": {
+    "torch": "MISSING (ModuleNotFoundError)",
+    "transformers": "5.22.1",
+    "accelerate": "MISSING (ModuleNotFoundError)",
+    "bitsandbytes": "MISSING (ModuleNotFoundError)",
+    "sklearn": "1.9.1",
+    "pandas": "3.0.5",
+    "numpy": "2.5.3",
+    "rapidfuzz": "3.14.6",
+    "requests": "2.34.2",
+    "huggingface_hub": "2.4.0",
+    "datasets": "MISSING (ModuleNotFoundError)",
+    "matplotlib": "3.11.2",
+    "yaml": "6.0.3",
+    "tqdm": "4.70.1",
+    "statsmodels": "0.15.0"
+  },
+  "gpu": {},
+  "seed": {
+    "seed": 42,
+    "draw": [
+      0.6394267984578837,
+      0.3745401188473625
+    ]
+  },
+  "network": {
+    "crossref": {
+      "status": null,
+      "error": "ProxyError"
+    },
+    "openalex": {
+      "status": null,
+      "error": "ProxyError"
+    },
+    "semantic_scholar": {
+      "status": null,
+      "error": "ProxyError"
+    },
+    "hf_naser_dataset": {
+      "status": null,
+      "error": "ProxyError"
+    },
+    "github_naser_repo": {
+      "status": 403,
+      "ms": 374
+    },
+    "hf_qwen7b": {
+      "status": null,
+      "error": "ProxyError"
+    },
+    "hf_mistral7b": {
+      "status": null,
+      "error": "ProxyError"
+    }
+  },
+  "checks": {
+    "packages_importable": {
+      "status": "FAIL",
+      "note": "missing=['torch', 'accelerate', 'bitsandbytes', 'datasets']"
+    },
+    "cuda_gpu": {
+      "status": "FAIL",
+      "note": "torch unusable: ModuleNotFoundError"
+    },
+    "seed_repeatable": {
+      "status": "PASS",
+      "note": "2 generators checked"
+    },
+    "net_crossref": {
+      "status": "FAIL",
+      "note": ""
+    },
+    "net_openalex": {
+      "status": "FAIL",
+      "note": ""
+    },
+    "net_semantic_scholar": {
+      "status": "FAIL",
+      "note": ""
+    },
+    "net_hf_naser_dataset": {
+      "status": "FAIL",
+      "note": ""
+    },
+    "net_github_naser_repo": {
+      "status": "FAIL",
+      "note": ""
+    },
+    "net_hf_qwen7b": {
+      "status": "FAIL",
+      "note": ""
+    },
+    "net_hf_mistral7b": {
+      "status": "FAIL",
+      "note": ""
+    }
+  }
+}

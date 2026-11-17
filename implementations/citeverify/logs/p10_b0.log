@@ -1,0 +1,9 @@
+min_flags=1: flagged=4 tp=2 fp=2 fn=42 precision=0.500 recall=0.045 f1=0.083
+min_flags=2: flagged=0 tp=0 fp=0 fn=44 precision=0.000 recall=0.000 f1=0.000
+b2              exists  fabricated  metadata_error
+gold_label                                        
+exists               1           0               1
+fabricated           0          44               0
+metadata_error       0           0              10
+                                                            title gold_label              b2 surname_ok year_ok doi_ok doi_resolves
+47  Towards Deep Learning Models Resistant to Adversarial Attacks     exists  metadata_error      False    True   None         None

@@ -1,0 +1,14 @@
+# keep model outputs, labels and results in the repo (they are the evidence)
+data/cache/
+*.safetensors
+*.bin
+.env
+__pycache__/
+.pytest_cache/
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.blg
+paper/*.bbl

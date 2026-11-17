@@ -1,0 +1,40 @@
+# Frozen protocol, T21 Version A (after change notice D08).
+# Set frozen: true, commit and tag protocol-v1 BEFORE the main generation run.
+protocol_version: v1
+frozen: true   # frozen 2026-11-17T11:35:52Z before the main run
+
+models:
+  - {id: Qwen/Qwen2.5-7B-Instruct, family: qwen2.5, size_b: 7.0, quant: nf4}
+  - {id: mistralai/Mistral-7B-Instruct-v0.3, family: mistral, size_b: 7.0, quant: nf4}
+revisions: {'Qwen/Qwen2.5-7B-Instruct': 'a09a35458c702b33eeacc393d103063234e8bc28', 'mistralai/Mistral-7B-Instruct-v0.3': 'c170c708c41dac9275d15a8fff4eca08d52bab71'}   # pinned 2026-11-17T11:35:52Z
+
+decoding: {temperature: 0.7, top_p: 0.9, max_new_tokens: 1024}   # D25 (supersedes D18): fast run keeps the pilot limit
+seeds: {main: 11, robustness: [11, 23, 47], bootstrap: 2026, pilot: 42, cv: 42}
+
+# One template for both models. [YOUR DECISION] wording may follow Naser's paper if it is published there.
+prompts:
+  main: 'List 10 peer-reviewed academic references on the topic "{topic}". For each reference give the authors, year, title, venue and DOI. Number them 1 to 10.'
+
+topics:
+  input_csv: data/topics_input.csv
+  output_csv: data/topics_frozen.csv
+  n_per_band: 20
+  n_pilot_per_band: 2
+  robustness_per_band: 4
+  main_per_band: 2       # D25: fast main run, 2 non-pilot topics per band (6 topics); null = all 60
+
+matcher: {threshold: 0.85, year_tolerance: 1}   # D16: from pilot labels (AI-made, D24); confirmed by student
+crossref_max_rps: 3                               # measured in env test (D09)
+
+b0: {min_flags: 1}                                # D21b: pilot F1 0.083 at 1 vs 0.000 at 2; confirmed by student
+b1: {C: 1.0, cv_folds: 5}                         # string-only logistic regression
+
+gold: {size: 200}        # D25: fast run labels every main citation (about 90)
+bootstrap_resamples: 1000
+paths:
+  raw: data/raw
+  parsed: data/parsed
+  labels: data/labels
+  cache: data/cache
+  results: results
+  tables: paper/tables

@@ -1,0 +1,39 @@
+....................................                                     [100%]
+=============================== warnings summary ===============================
+../../../usr/local/lib/python3.13/dist-packages/torch/jit/_script.py:365: 14 warnings
+  /usr/local/lib/python3.13/dist-packages/torch/jit/_script.py:365: DeprecationWarning: `torch.jit.script_method` is deprecated. Please switch to `torch.compile` or `torch.export`.
+    warnings.warn(
+
+../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64
+  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    prop = Group((name + Suppress("=") + comma_separated(value)) | oneOf(_CONSTANTS))
+
+../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85
+../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85
+../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85
+../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85
+../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85
+../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85
+  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+    parse = parser.parseString(pattern)
+
+../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89
+../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89
+../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89
+../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89
+../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89
+../../../usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89
+  /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+    parser.resetCache()
+
+tests/test_analyse_a.py: 17 warnings
+tests/test_b1.py: 1 warning
+  /usr/local/lib/python3.13/dist-packages/sklearn/linear_model/_logistic.py:451: DeprecationWarning: scipy.optimize: The `disp` and `iprint` options of the L-BFGS-B solver are deprecated and will be removed in SciPy 1.18.0.
+    opt_res = optimize.minimize(
+
+tests/test_analyse_a.py::test_pilot_then_main
+  /usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+    ParserElement.enablePackrat()
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+36 passed, 46 warnings in 25.90s

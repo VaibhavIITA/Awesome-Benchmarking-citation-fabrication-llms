@@ -1,0 +1,17 @@
+# Lower bounds. The exact Colab environment (17 Nov 2026) is pinned in requirements.txt (pip freeze).
+# torch: keep the version preinstalled on Colab
+transformers>=4.56   # code uses dtype= and return_dict=; tested on 5.22.1
+accelerate>=0.33
+bitsandbytes>=0.43
+scikit-learn>=1.4
+pandas>=2.1
+numpy>=1.26
+rapidfuzz>=3.6
+requests>=2.31
+huggingface_hub>=0.24
+datasets>=2.20
+statsmodels>=0.14
+matplotlib>=3.8
+pyyaml>=6.0
+tqdm>=4.66
+pytest>=8.0

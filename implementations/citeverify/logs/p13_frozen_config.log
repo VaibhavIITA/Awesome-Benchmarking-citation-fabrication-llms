@@ -1,0 +1,8 @@
+2:# Set frozen: true, commit and tag protocol-v1 BEFORE the main generation run.
+4:frozen: true   # frozen 2026-11-17T11:35:52Z before the main run
+9:revisions: {'Qwen/Qwen2.5-7B-Instruct': 'a09a35458c702b33eeacc393d103063234e8bc28', 'mistralai/Mistral-7B-Instruct-v0.3': 'c170c708c41dac9275d15a8fff4eca08d52bab71'}   # pinned 2026-11-17T11:35:52Z
+11:decoding: {temperature: 0.7, top_p: 0.9, max_new_tokens: 1024}   # D25 (supersedes D18): fast run keeps the pilot limit
+20:  output_csv: data/topics_frozen.csv
+24:  main_per_band: 2       # D25: fast main run, 2 non-pilot topics per band (6 topics); null = all 60
+26:matcher: {threshold: 0.85, year_tolerance: 1}   # D16: from pilot labels (AI-made, D24); confirmed by student
+29:b0: {min_flags: 1}                                # D21b: pilot F1 0.083 at 1 vs 0.000 at 2; confirmed by student
